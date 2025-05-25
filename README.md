@@ -4,7 +4,6 @@
 This is an AI-driven application that recommends alternative medicines based on semantic similarity, symptom interpretation, and side-effect profiling.  
 It integrates advanced **Natural Language Processing (NLP)**, **Large Language Models (LLMs)**, and **interactive visualization** - all accessible through an intuitive Gradio web interface.
 
----
 
 ## Features
 
@@ -16,14 +15,8 @@ It integrates advanced **Natural Language Processing (NLP)**, **Large Language M
 - **Multilingual support** with automatic translation of symptoms from French to English.
 - Built with Transformers, spaCy, scikit-learn, Plotly, and Gradio.
 
----
-
 ## Demo Screenshots
-
-### Main Recommendation Interface
-
-
-![Screenshot](screenshot.png)
+<img width="466" alt="screenshot1" src="https://github.com/user-attachments/assets/6161a9db-24aa-4dd9-b085-1ebd394be768" />
 
 
 
