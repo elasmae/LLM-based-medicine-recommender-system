@@ -3,7 +3,7 @@
 **LLM-Based Symptom Analysis, Summarization & Clustering**
 
 This is an AI-driven application that recommends alternative medicines based on semantic similarity, symptom interpretation, and side-effect profiling.
-It integrates advanced **Natural Language Processing (NLP)**, **Large Language Models (LLMs)**, and **interactive visualization** — all accessible through an intuitive Gradio web interface.
+It integrates advanced **Natural Language Processing (NLP)**, **Large Language Models (LLMs)**, and **interactive visualization** , all accessible through an intuitive Gradio web interface.
 
 ---
 
@@ -14,7 +14,7 @@ It integrates advanced **Natural Language Processing (NLP)**, **Large Language M
 * **Medical Notice Summarizer** using DistilBART to simplify long drug descriptions.
 * **t-SNE-based clustering** to explore groups of similar medicines visually.
 * **Multilingual support** with automatic translation of symptoms from French to English.
-* Built with **Transformers**, **spaCy**, **scikit-learn**, **Plotly**, and **Gradio**.
+
 
 ---
 
@@ -40,8 +40,6 @@ It integrates advanced **Natural Language Processing (NLP)**, **Large Language M
 ├── requirements.txt          # All required Python packages  
 └── README.md                 # This file  
 </pre>
-
----
 
 
 - How to Use
