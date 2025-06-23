@@ -17,13 +17,10 @@ It integrates advanced **Natural Language Processing (NLP)**, **Large Language M
 
 ## Demo Screenshots
 <img width="466" alt="screenshot1" src="https://github.com/user-attachments/assets/6161a9db-24aa-4dd9-b085-1ebd394be768" />
-### Symptom Checker Example (input in French)
-```text
-Input: fièvre, toux, fatigue
-Output: Recommends medicines treating flu and respiratory conditions.
+
 <img width="569" alt="project medcine" src="https://github.com/user-attachments/assets/143fb013-7810-424f-93cb-57c819121419" />
 
-## Project Structure
+Project Structure
 
 ├── preprocess_medicines.py # processing, embedding, and clustering pipeline
 ├── app.py                     # Main Gradio application
