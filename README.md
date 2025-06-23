@@ -1,36 +1,47 @@
+# AI-Powered Medicine Recommender
 
-# AI-Powered Medicine Recommender with LLM-Based Symptom Analysis, Summarization & Clustering
+**LLM-Based Symptom Analysis, Summarization & Clustering**
 
-This is an AI-driven application that recommends alternative medicines based on semantic similarity, symptom interpretation, and side-effect profiling.  
-It integrates advanced **Natural Language Processing (NLP)**, **Large Language Models (LLMs)**, and **interactive visualization** - all accessible through an intuitive Gradio web interface.
+This is an AI-driven application that recommends alternative medicines based on semantic similarity, symptom interpretation, and side-effect profiling.
+It integrates advanced **Natural Language Processing (NLP)**, **Large Language Models (LLMs)**, and **interactive visualization** — all accessible through an intuitive Gradio web interface.
 
+---
 
 ## Features
 
+* **Hybrid medicine recommendation** using BERT embeddings and cosine similarity.
+* **Symptom Checker Chatbot** powered by a GPT-based LLM to understand symptoms and suggest treatments.
+* **Medical Notice Summarizer** using DistilBART to simplify long drug descriptions.
+* **t-SNE-based clustering** to explore groups of similar medicines visually.
+* **Multilingual support** with automatic translation of symptoms from French to English.
+* Built with **Transformers**, **spaCy**, **scikit-learn**, **Plotly**, and **Gradio**.
 
-- **Hybrid medicine recommendation** using BERT embeddings and cosine similarity.
-- **Symptom Checker Chatbot** powered by a GPT LLM to understand symptoms and suggest treatments.
-- **Medical Notice Summarizer** using DistilBART to simplify long drug descriptions.
-- **t-SNE-based clustering** to explore groups of similar medicines visually.
-- **Multilingual support** with automatic translation of symptoms from French to English.
-- Built with Transformers, spaCy, scikit-learn, Plotly, and Gradio.
+---
 
 ## Demo Screenshots
+
 <img width="466" alt="screenshot1" src="https://github.com/user-attachments/assets/6161a9db-24aa-4dd9-b085-1ebd394be768" />
 
 <img width="569" alt="project medcine" src="https://github.com/user-attachments/assets/143fb013-7810-424f-93cb-57c819121419" />
 
-Project Structure
+---
 
-├── preprocess_medicines.py # processing, embedding, and clustering pipeline
-├── app.py                     # Main Gradio application
-├── screenshot.png             # Interface demo image
-├── bert_embeddings.pkl        # Medicine embeddings
-├── cosine_sim.pkl             # Cosine similarity matrix
-├── processed_df.pkl           # Preprocessed medicine dataset
-├── medicine_details.csv       # Raw dataset of medicines (https://www.kaggle.com/datasets/singhnavjot2062001/11000-medicine-details)
-├── requirements.txt           # All required Python packages
-└── README.md                  # This file
+## Project Structure
+
+<pre>
+├── preprocess_medicines.py   # Processing, embedding, and clustering pipeline  
+├── app.py                    # Main Gradio application  
+├── screenshot.png            # Interface demo image  
+├── bert_embeddings.pkl       # Medicine embeddings  
+├── cosine_sim.pkl            # Cosine similarity matrix  
+├── processed_df.pkl          # Preprocessed medicine dataset  
+├── medicine_details.csv      # Raw dataset of medicines  
+│                             # (https://www.kaggle.com/datasets/singhnavjot2062001/11000-medicine-details)  
+├── requirements.txt          # All required Python packages  
+└── README.md                 # This file  
+</pre>
+
+---
 
 
 - How to Use
